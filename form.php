@@ -14,18 +14,18 @@
 
         <h1>Fill the form below</h1><br>
         <p>Complete the below form to get instant access</p><br>
-        <form action="form.php" method="post">
+        <form action="submit.php" method="post">
             <input type="text" name="companyName" placeholder="Company name" required><br>
             <input type="text" name="name" placeholder="Full name" required><br>
             <input type="email" name="email" placeholder="Email" required><br>
-            <input type="nummber" name="number" placeholder="Phone" required><br>
+            <input type="number" name="number" placeholder="Phone" required><br>
             <select name="service" required>
                 <option value="" disabled selected>Choose service...</option>
                 <option value="service2">Service 1</option>
                 <option value="service3">Service 2</option>
             </select>
             <br>
-            <input type="submit" name="submit" value="Send request">
+            <input type="submit" class="submit" name="submit" value="Send request">
         </form>
 
     </div>
